@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Shield, Wrench, Plus, Trash2, Key, Award, SendCheck } from "lucide-react";
+import { Shield, Wrench, Plus, Trash2, Key, Award, Send } from "lucide-react";
 
 export default function UltraAdminDashboard() {
   const [maintenanceMode, setMaintenanceMode] = useState(false);
@@ -161,7 +161,7 @@ export default function UltraAdminDashboard() {
           {/* Pending Bills Review & Dispatch */}
           <div className="glass-panel p-6 rounded-3xl space-y-4">
             <h2 className="text-xl font-bold text-white flex items-center gap-2">
-              <SendCheck className="w-5 h-5 text-emerald-400" /> Bill Review & Dispatch Queue
+              <Send className="w-5 h-5 text-emerald-400" /> Bill Review & Dispatch Queue
             </h2>
 
             <div className="space-y-3">
